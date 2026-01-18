@@ -335,7 +335,7 @@ int main()
         }
     }
 
-    std::string ip = "127.0.0.1";
+    std::string ip = "10.147.18.61";
     int port = 1080;
     std::cout << "[Client] Using server: " << ip << " Port: " << port << std::endl;
     std::thread tInput(InputThreadFunc, ip, port);
@@ -346,4 +346,5 @@ int main()
 
     return 0;
 }
+
 
